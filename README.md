@@ -12,6 +12,8 @@ Your student database can now be accessed very quickly right through your very o
 
 # Extra Information 
 
+Commands work both on Mac and Windows. 
+
 This program is made in Python using the Trees data structure 🐍🌴
 
 More updates coming soon 👀

@@ -31,7 +31,7 @@ When you add a class, you may be prompted again to add it again as there is a (c
 
 After typing a command, you cannot quit the process until completed. This might be changed in the future. 
 
-For full functionality, run "account.py". Running "database.py" will only run half the program of which, you can only play with one general class. 
+For full functionality, run "account.py" founded in the complete release files. Running "database.py" will only run half the program of which, you can only play with one general class. 
 
 This program is made in Python 🐍 using the Trees data structure 🌴 and Hashmaps for more efficiency #️⃣
 

@@ -14,7 +14,7 @@ Your student database can now be accessed very quickly right through your very o
 
 *Logging in Commands*
 - /user: Creates an account to access the database 
-- /quitL Exits the program
+- /quit: Exits the program
 
 #Accessing the Database Functionality*
 - /add_class: Allows a user to add a new class

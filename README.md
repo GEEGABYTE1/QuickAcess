@@ -1,4 +1,4 @@
-# Student Database 🌌
+# QuickAcess - A Student Database, but much QUICKER 🌌
 
 Your student database can now be accessed very quickly right through your very own terminal 🖥
 

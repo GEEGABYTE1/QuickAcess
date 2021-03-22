@@ -101,12 +101,15 @@ class Prompt:
         
         print('Welcome to your student database! ')
         database = TreeNode('Students: ')
-        num_students = input('Please enter the amount of students you have in your school: ')
-        
-        for i in range(int(num_students)):
-            database.add_child()
+        if len(database.children) == 0:
+            num_students = input('Please enter the amount of students you have in your class: ')
+            
+            for i in range(int(num_students)):
+                database.add_child()
 
-            time.sleep(0.5)
+                time.sleep(0.5)
+        else:
+            pass
 
         print('-----------------------------------------------------------------------')
         print('You can now do 3 actions: ')
@@ -114,6 +117,7 @@ class Prompt:
         print('You can remove a student using /remove')
         print('You can edit a student\'s mark using /edit')
         print('You can also add a new student using /add')
+        print('You can also quit using /quit')
         print('-----------------------------------------------------------------------')
         playing = True 
         while playing:
@@ -141,5 +145,5 @@ class Prompt:
         
 
 test = Prompt()
-print(test.gameplay())
+#print(test.gameplay())
 

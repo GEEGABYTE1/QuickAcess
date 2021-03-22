@@ -8,3 +8,6 @@ If on Windows, python must be downloaded before from an external site.
 
 Commands stay the same for both operating systems.
 
+Run account.py for the full function of the program. 
+
+

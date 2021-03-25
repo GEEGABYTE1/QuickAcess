@@ -6,22 +6,22 @@ Your student database can now be accessed very quickly right through your very o
 # Controls 
 
 *Accessed a Certain Class Functionality*
-- /traverse: Allows the user to find a certain student's data
-- /remove: Removes a certain student's data
-- /edit: Allows the user to update a student's mark if necessary
-- /add: Allows the user to add a new student
-- /quit: Quits the program 
+- `/traverse`: Allows the user to find a certain student's data
+- `/remove`: Removes a certain student's data
+- `/edit`: Allows the user to update a student's mark if necessary
+- `/add`: Allows the user to add a new student
+- `/quit`: Quits the program 
 
 *Logging in Commands*
-- /user: Creates an account to access the database 
-- /quit: Exits the program
+- `/user`: Creates an account to access the database 
+- `/quit`: Exits the program
 
 #Accessing the Database Functionality*
-- /add_class: Allows a user to add a new class
-- /view_classes: Allows a user to see all their classes 
-- /remove_class: Removes a class from the database 
-- /access: Allows a user to access one of their class's grades 
-- /quit: Quits the program
+- `/add_class`: Allows a user to add a new class
+- `/view_classes`: Allows a user to see all their classes 
+- `/remove_class`: Removes a class from the database 
+- `/access`: Allows a user to access one of their class's grades 
+- `/quit`: Quits the program
 
 # Extra Information 
 

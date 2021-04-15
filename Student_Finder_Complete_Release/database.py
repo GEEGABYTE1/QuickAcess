@@ -76,9 +76,24 @@ class TreeNode:
                     else:
                         continue
                         #node.value = node.children[0].value
-                    
+              
         else:
             print('That ID seems to be invalid')
+    def sort(self):
+        if len(self.children) == 1:
+            pass
+        else:
+            for i in range(len(self.children)):
+                for idx in range(len(self.children) - i - 1):
+                    if int(self.children[idx].value[-1]) < int(self.children[idx + 1].value[-1]):
+                        self.children[idx], self.children[idx + 1] = self.children[idx + 1], self.children[idx]
+        
+        top_marks = []
+        for i in self.children:
+            if i.value[-1] == self.children[0].value[-1]:
+                top_marks.append(i)
+        for i in top_marks:
+            print("Student no.{number} named {student} has the highest mark with {mark}".format(number=i.value[0], student=i.value[1], mark=i.value[2]))
             
         
     def edit(self):
@@ -112,11 +127,12 @@ class Prompt:
             pass
 
         print('-----------------------------------------------------------------------')
-        print('You can now do 3 actions: ')
+        print('You can now do 4 actions: ')
         print('You can view your database using /traverse')
         print('You can remove a student using /remove')
         print('You can edit a student\'s mark using /edit')
         print('You can also add a new student using /add')
+        print('You can look at the highest achieving student with /view_highest')
         print('You can also quit using /quit')
         print('-----------------------------------------------------------------------')
         playing = True 
@@ -135,6 +151,12 @@ class Prompt:
 
             elif user == "/add":
                 database.add_child()
+            
+            elif user == "/view_highest":
+                if len(database.children) == 0:
+                    print("There is no students in your class yet! ")
+                else:
+                    database.sort()
 
             elif user == "/quit":
                 break

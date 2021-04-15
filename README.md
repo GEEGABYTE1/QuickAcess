@@ -21,6 +21,7 @@ Your student database can now be accessed very quickly right through your very o
 - `/view_classes`: Allows a user to see all their classes 
 - `/remove_class`: Removes a class from the database 
 - `/access`: Allows a user to access one of their class's grades 
+- `/view_highest`: Allows the user to see their top student performers in each class with their marks
 - `/quit`: Quits the program
 
 # Extra Information 
@@ -38,5 +39,6 @@ This program is made in Python 🐍 using the Trees data structure 🌴 and Hash
 #Patches and Updates
 
 - Mar 17: Fixed iteration and scripting bugs. Added new functionality for the complete release and added more print statments for guidance. Hashmaps were added for more efficiency and quick results. 
+- Apr 15: Implemented sorting algorithm in `.sort()` in `database.py `
 
 
